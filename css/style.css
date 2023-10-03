@@ -1,0 +1,43 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu{
+  justify-content: space-around; 
+  display: flex;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+}
+
+#popup{
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 250px;
+    border-radius: 4px;
+    border: 1px solid #686868;
+    background-color: white;
+}
+
+#batataM,
+#batataP,
+#humburguer,
+#refri{
+    text-align: center;
+    box-shadow: 3px 3px 5px;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+button{
+    border-radius: 4px;
+    border: none;
+    box-shadow: 3px 3px 5px;
+    margin: 10px;
+    cursor: pointer;
+}
